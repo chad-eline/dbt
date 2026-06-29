@@ -1,0 +1,2 @@
+-- jinja cmd to generate _src_*.yaml files
+-- {{ codegen.generate_source(schema_name= 'jaffle_shop', database_name= 'raw') }}
