@@ -1,342 +1,40 @@
 {
-  "nodes": [
-    {
-      "id": "lane_tables",
-      "type": "group",
-      "x": -40,
-      "y": 510,
-      "width": 3400,
-      "height": 540,
-      "color": "5",
-      "label": "Tables",
-      "nodeLabel": "G1"
-    },
-    {
-      "id": "lane_ui",
-      "type": "group",
-      "x": -40,
-      "y": 0,
-      "width": 3400,
-      "height": 420,
-      "color": "6",
-      "label": "UI",
-      "nodeLabel": "G2"
-    },
-    {
-      "id": "lane_pipeline",
-      "type": "group",
-      "x": -40,
-      "y": 1140,
-      "width": 3400,
-      "height": 340,
-      "color": "2",
-      "label": "Pipeline",
-      "nodeLabel": "G3"
-    },
-    {
-      "id": "grp_raw_positions",
-      "type": "group",
-      "x": 944,
-      "y": 554,
-      "width": 952,
-      "height": 472,
-      "label": "raw_positions (bronze)",
-      "nodeLabel": "G4"
-    },
-    {
-      "id": "title",
-      "type": "text",
-      "text": "# AWS Batch Pipeline Blueprint\nBoard view of [[AWS_Batch_Pipeline_Blueprint]]. Pipeline does the work, Tables hold the results, UI shows them.",
-      "x": 0,
-      "y": -190,
-      "width": 920,
-      "height": 130,
-      "nodeLabel": "N1"
-    },
-    {
-      "id": "legend",
-      "type": "text",
-      "text": "**How to read**\n- Step to table: writes. Table to step or screen: reads.\n- Table and pipeline cards are live views of sections in the note. Edit the note, not the card.\n- Wireframe callout numbers match the Elements table in each screen section.",
-      "x": 960,
-      "y": -190,
-      "width": 1400,
-      "height": 130,
-      "nodeLabel": "N2"
-    },
-    {
-      "id": "ui_run_monitor_link",
-      "type": "text",
-      "text": "**Run monitor**\nSpec and element bindings: [[AWS_Batch_Pipeline_Blueprint#Run monitor]]",
-      "x": 0,
-      "y": 30,
-      "width": 440,
-      "height": 64,
-      "nodeLabel": "N3"
-    },
-    {
-      "id": "ui_run_monitor",
-      "type": "file",
-      "file": "blueprint/wireframes/AWS_Batch_Blueprint_wf_run_monitor.svg",
-      "x": 0,
-      "y": 110,
-      "width": 440,
-      "height": 275,
-      "nodeLabel": "I1"
-    },
-    {
-      "id": "ui_holdings_grid_link",
-      "type": "text",
-      "text": "**Holdings grid**\nSpec and element bindings: [[AWS_Batch_Pipeline_Blueprint#Holdings grid]]",
-      "x": 2400,
-      "y": 30,
-      "width": 440,
-      "height": 64,
-      "nodeLabel": "N4"
-    },
-    {
-      "id": "ui_break_report_link",
-      "type": "text",
-      "text": "**Break report**\nSpec and element bindings: [[AWS_Batch_Pipeline_Blueprint#Break report]]",
-      "x": 2880,
-      "y": 30,
-      "width": 440,
-      "height": 64,
-      "nodeLabel": "N5"
-    },
-    {
-      "id": "ui_break_report",
-      "type": "file",
-      "file": "blueprint/wireframes/AWS_Batch_Blueprint_wf_break_report.svg",
-      "x": 2880,
-      "y": 110,
-      "width": 440,
-      "height": 275,
-      "nodeLabel": "I2"
-    },
-    {
-      "id": "ui_holdings_grid",
-      "type": "file",
-      "file": "blueprint/wireframes/AWS_Batch_Blueprint_wf_holdings_grid.svg",
-      "x": 2400,
-      "y": 110,
-      "width": 440,
-      "height": 275,
-      "nodeLabel": "I3"
-    },
-    {
-      "id": "t_ops_pipeline_runs",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#ops_pipeline_runs",
-      "x": 0,
-      "y": 570,
-      "width": 440,
-      "height": 440,
-      "nodeLabel": "M1"
-    },
-    {
-      "id": "t_raw_custodian_positions",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#raw_custodian_positions",
-      "x": 960,
-      "y": 570,
-      "width": 440,
-      "height": 440,
-      "nodeLabel": "M2"
-    },
-    {
-      "id": "t_raw_abor_positions",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#raw_abor_positions",
-      "x": 1440,
-      "y": 570,
-      "width": 440,
-      "height": 440,
-      "nodeLabel": "M3"
-    },
-    {
-      "id": "t_stg_positions",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#stg_positions",
-      "x": 1920,
-      "y": 570,
-      "width": 440,
-      "height": 440,
-      "nodeLabel": "M4"
-    },
-    {
-      "id": "t_fct_holdings",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#fct_holdings",
-      "x": 2400,
-      "y": 570,
-      "width": 440,
-      "height": 440,
-      "nodeLabel": "M5"
-    },
-    {
-      "id": "t_fct_position_breaks",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#fct_position_breaks",
-      "x": 2880,
-      "y": 570,
-      "width": 440,
-      "height": 440,
-      "nodeLabel": "M6"
-    },
-    {
-      "id": "p_orchestrate",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#Orchestrate",
-      "x": 0,
-      "y": 1170,
-      "width": 440,
-      "height": 280,
-      "nodeLabel": "M7"
-    },
-    {
-      "id": "p_sources",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#Sources",
-      "x": 480,
-      "y": 1170,
-      "width": 440,
-      "height": 280,
-      "nodeLabel": "M8"
-    },
-    {
-      "id": "p_ingest",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#Ingest and validate",
-      "x": 960,
-      "y": 1170,
-      "width": 920,
-      "height": 280,
-      "nodeLabel": "M9"
-    },
-    {
-      "id": "p_stage",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#Stage positions",
-      "x": 1920,
-      "y": 1170,
-      "width": 440,
-      "height": 280,
-      "nodeLabel": "M10"
-    },
-    {
-      "id": "p_build",
-      "type": "file",
-      "file": "blueprint/AWS_Batch_Pipeline_Blueprint.md",
-      "subpath": "#Build marts",
-      "x": 2400,
-      "y": 1170,
-      "width": 920,
-      "height": 280,
-      "nodeLabel": "M11"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e_orch_ops",
-      "fromNode": "p_orchestrate",
-      "fromSide": "top",
-      "toNode": "t_ops_pipeline_runs",
-      "toSide": "bottom",
-      "label": "writes"
-    },
-    {
-      "id": "e_ops_ui",
-      "fromNode": "t_ops_pipeline_runs",
-      "fromSide": "top",
-      "toNode": "ui_run_monitor",
-      "toSide": "bottom",
-      "label": "reads"
-    },
-    {
-      "id": "e_src_ing",
-      "fromNode": "p_sources",
-      "fromSide": "right",
-      "toNode": "p_ingest",
-      "toSide": "left"
-    },
-    {
-      "id": "e_ing_raw",
-      "fromNode": "p_ingest",
-      "fromSide": "top",
-      "toNode": "grp_raw_positions",
-      "toSide": "bottom",
-      "label": "writes"
-    },
-    {
-      "id": "e_raw_stage",
-      "fromNode": "grp_raw_positions",
-      "fromSide": "bottom",
-      "toNode": "p_stage",
-      "toSide": "top",
-      "label": "reads"
-    },
-    {
-      "id": "e_stage_stg",
-      "fromNode": "p_stage",
-      "fromSide": "top",
-      "toNode": "t_stg_positions",
-      "toSide": "bottom",
-      "label": "writes"
-    },
-    {
-      "id": "e_stg_build",
-      "fromNode": "t_stg_positions",
-      "fromSide": "bottom",
-      "toNode": "p_build",
-      "toSide": "top",
-      "label": "reads"
-    },
-    {
-      "id": "e_build_hold",
-      "fromNode": "p_build",
-      "fromSide": "top",
-      "toNode": "t_fct_holdings",
-      "toSide": "bottom",
-      "label": "writes"
-    },
-    {
-      "id": "e_build_brk",
-      "fromNode": "p_build",
-      "fromSide": "top",
-      "toNode": "t_fct_position_breaks",
-      "toSide": "bottom",
-      "label": "writes"
-    },
-    {
-      "id": "e_hold_ui",
-      "fromNode": "t_fct_holdings",
-      "fromSide": "top",
-      "toNode": "ui_holdings_grid",
-      "toSide": "bottom",
-      "label": "reads"
-    },
-    {
-      "id": "e_brk_ui",
-      "fromNode": "t_fct_position_breaks",
-      "fromSide": "top",
-      "toNode": "ui_break_report",
-      "toSide": "bottom",
-      "label": "reads"
-    }
-  ],
-  "viewport": {
-    "x": 86.68235294117653,
-    "y": 185.49705882352941,
-    "zoom": 0.41705882352941176
-  }
+	"nodes":[
+		{"id":"lane_ui","type":"group","x":-40,"y":0,"width":3400,"height":420,"label":"UI","color":"6"},
+		{"id":"lane_tables","type":"group","x":-40,"y":510,"width":3400,"height":540,"label":"Tables","color":"5"},
+		{"id":"lane_pipeline","type":"group","x":-40,"y":1140,"width":3400,"height":340,"label":"Pipeline","color":"2"},
+		{"id":"grp_raw_positions","type":"group","x":944,"y":554,"width":952,"height":472,"label":"raw_positions (bronze)"},
+		{"id":"title","type":"text","x":0,"y":-190,"width":920,"height":130,"text":"# AWS Batch Pipeline Blueprint\nBoard view of [[AWS_Batch_Pipeline_Blueprint]]. Pipeline does the work, Tables hold the results, UI shows them."},
+		{"id":"legend","type":"text","x":960,"y":-190,"width":1400,"height":130,"text":"**How to read**\n- Step to table: writes. Table to step or screen: reads.\n- Table and pipeline cards are live views of sections in the note. Edit the note, not the card.\n- Wireframe callout numbers match the Elements table in each screen section."},
+		{"id":"ui_run_monitor_link","type":"text","x":0,"y":30,"width":440,"height":64,"text":"**Run monitor**\nSpec and element bindings: [[AWS_Batch_Pipeline_Blueprint#Run monitor]]"},
+		{"id":"ui_run_monitor","type":"file","file":"blueprint/wireframes/AWS_Batch_Blueprint_wf_run_monitor.svg","x":0,"y":110,"width":440,"height":280},
+		{"id":"ui_holdings_grid_link","type":"text","x":2400,"y":30,"width":440,"height":64,"text":"**Holdings grid**\nSpec and element bindings: [[AWS_Batch_Pipeline_Blueprint#Holdings grid]]"},
+		{"id":"ui_holdings_grid","type":"file","file":"blueprint/wireframes/AWS_Batch_Blueprint_wf_holdings_grid.svg","x":2400,"y":110,"width":440,"height":280},
+		{"id":"ui_break_report_link","type":"text","x":2880,"y":30,"width":440,"height":64,"text":"**Break report**\nSpec and element bindings: [[AWS_Batch_Pipeline_Blueprint#Break report]]"},
+		{"id":"ui_break_report","type":"file","file":"blueprint/wireframes/AWS_Batch_Blueprint_wf_break_report.svg","x":2880,"y":110,"width":440,"height":280},
+		{"id":"t_ops_pipeline_runs","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#ops_pipeline_runs","x":0,"y":570,"width":440,"height":440},
+		{"id":"t_raw_custodian_positions","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#raw_custodian_positions","x":960,"y":570,"width":440,"height":440},
+		{"id":"t_raw_abor_positions","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#raw_abor_positions","x":1440,"y":570,"width":440,"height":440},
+		{"id":"t_stg_positions","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#stg_positions","x":1920,"y":570,"width":440,"height":440},
+		{"id":"t_fct_holdings","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#fct_holdings","x":2400,"y":570,"width":440,"height":440},
+		{"id":"t_fct_position_breaks","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#fct_position_breaks","x":2880,"y":570,"width":440,"height":440},
+		{"id":"p_orchestrate","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#Orchestrate","x":0,"y":1170,"width":440,"height":280},
+		{"id":"p_sources","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#Sources","x":480,"y":1170,"width":440,"height":280},
+		{"id":"p_ingest","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#Ingest and validate","x":960,"y":1170,"width":920,"height":280},
+		{"id":"p_stage","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#Stage positions","x":1920,"y":1170,"width":440,"height":280},
+		{"id":"p_build","type":"file","file":"blueprint/AWS_Batch_Pipeline_Blueprint.md","subpath":"#Build marts","x":2400,"y":1170,"width":920,"height":280}
+	],
+	"edges":[
+		{"id":"e_orch_ops","fromNode":"p_orchestrate","fromSide":"top","toNode":"t_ops_pipeline_runs","toSide":"bottom","label":"writes"},
+		{"id":"e_ops_ui","fromNode":"t_ops_pipeline_runs","fromSide":"top","toNode":"ui_run_monitor","toSide":"bottom","label":"reads"},
+		{"id":"e_src_ing","fromNode":"p_sources","fromSide":"right","toNode":"p_ingest","toSide":"left"},
+		{"id":"e_ing_raw","fromNode":"p_ingest","fromSide":"top","toNode":"grp_raw_positions","toSide":"bottom","label":"writes"},
+		{"id":"e_raw_stage","fromNode":"grp_raw_positions","fromSide":"bottom","toNode":"p_stage","toSide":"top","label":"reads"},
+		{"id":"e_stage_stg","fromNode":"p_stage","fromSide":"top","toNode":"t_stg_positions","toSide":"bottom","label":"writes"},
+		{"id":"e_stg_build","fromNode":"t_stg_positions","fromSide":"bottom","toNode":"p_build","toSide":"top","label":"reads"},
+		{"id":"e_build_hold","fromNode":"p_build","fromSide":"top","toNode":"t_fct_holdings","toSide":"bottom","label":"writes"},
+		{"id":"e_build_brk","fromNode":"p_build","fromSide":"top","toNode":"t_fct_position_breaks","toSide":"bottom","label":"writes"},
+		{"id":"e_hold_ui","fromNode":"t_fct_holdings","fromSide":"top","toNode":"ui_holdings_grid","toSide":"bottom","label":"reads"},
+		{"id":"e_brk_ui","fromNode":"t_fct_position_breaks","fromSide":"top","toNode":"ui_break_report","toSide":"bottom","label":"reads"}
+	]
 }
