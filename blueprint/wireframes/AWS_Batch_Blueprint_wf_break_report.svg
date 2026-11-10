@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<title>Wireframe: Break report</title>
+<rect x="0.5" y="0.5" width="959" height="599" fill="#ffffff" stroke="#bdbdbd"/>
+<rect x="0.5" y="0.5" width="959" height="44" rx="0" fill="#ededed" stroke="#bdbdbd" stroke-width="1"/>
+<text x="20" y="28" font-size="14" font-weight="700" fill="#2b2b2b" text-anchor="start">Positions</text>
+<text x="150" y="28" font-size="12" font-weight="400" fill="#6b6b6b" text-anchor="start">Holdings</text>
+<text x="234" y="28" font-size="12" font-weight="700" fill="#2b2b2b" text-anchor="start">Breaks</text>
+<line x1="234" y1="36" x2="276" y2="36" stroke="#2b2b2b" stroke-width="2"/>
+<text x="306" y="28" font-size="12" font-weight="400" fill="#6b6b6b" text-anchor="start">Runs</text>
+<circle cx="928" cy="22" r="11" fill="#e3e3e3" stroke="#9a9a9a"/>
+<text x="24" y="78" font-size="20" font-weight="700" fill="#2b2b2b" text-anchor="start">Position breaks</text>
+<text x="24" y="104" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">As-of date</text>
+<rect x="24" y="110" width="150" height="28" rx="4" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<text x="34" y="128" font-size="12" font-weight="400" fill="#2b2b2b" text-anchor="start">2026-11-09</text>
+<polyline points="155,121 160,127 165,121" fill="none" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="190" y="104" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Break type</text>
+<rect x="190" y="110" width="200" height="28" rx="4" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<text x="200" y="128" font-size="12" font-weight="400" fill="#2b2b2b" text-anchor="start">All types</text>
+<polyline points="371,121 376,127 381,121" fill="none" stroke="#6b6b6b" stroke-width="1.5"/>
+<text x="406" y="104" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Min age (days)</text>
+<rect x="406" y="110" width="120" height="28" rx="4" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<text x="416" y="128" font-size="12" font-weight="400" fill="#2b2b2b" text-anchor="start">0</text>
+<rect x="24" y="156" width="219" height="60" rx="4" fill="#f4f4f4" stroke="#9a9a9a" stroke-width="1"/>
+<text x="36" y="178" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Open breaks</text>
+<text x="36" y="202" font-size="18" font-weight="700" fill="#2b2b2b" text-anchor="start">23</text>
+<rect x="255" y="156" width="219" height="60" rx="4" fill="#f4f4f4" stroke="#9a9a9a" stroke-width="1"/>
+<text x="267" y="178" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Quantity mismatch</text>
+<text x="267" y="202" font-size="18" font-weight="700" fill="#2b2b2b" text-anchor="start">14</text>
+<rect x="486" y="156" width="219" height="60" rx="4" fill="#f4f4f4" stroke="#9a9a9a" stroke-width="1"/>
+<text x="498" y="178" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Missing at custodian</text>
+<text x="498" y="202" font-size="18" font-weight="700" fill="#2b2b2b" text-anchor="start">6</text>
+<rect x="717" y="156" width="219" height="60" rx="4" fill="#f4f4f4" stroke="#9a9a9a" stroke-width="1"/>
+<text x="729" y="178" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Missing in ABOR</text>
+<text x="729" y="202" font-size="18" font-weight="700" fill="#2b2b2b" text-anchor="start">3</text>
+<rect x="24" y="232" width="620" height="298" rx="4" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<rect x="24" y="232" width="620" height="28" rx="4" fill="#ebebeb" stroke="#9a9a9a" stroke-width="1"/>
+<text x="34" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="start">Account</text>
+<text x="114" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="start">Security id</text>
+<text x="270" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="end">ABOR qty</text>
+<text x="370" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="end">Custodian qty</text>
+<text x="454" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="end">Diff</text>
+<text x="474" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="start">Type</text>
+<text x="634" y="250" font-size="11" font-weight="700" fill="#2b2b2b" text-anchor="end">Age</text>
+<rect x="25" y="261" width="618" height="29" rx="0" fill="#dedede" stroke="none" stroke-width="1"/>
+<rect x="25" y="261" width="3" height="29" rx="0" fill="#2b2b2b" stroke="none" stroke-width="1"/>
+<line x1="24" y1="260" x2="644" y2="260" stroke="#d4d4d4" stroke-width="1"/>
+<text x="34" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">ACC-0012</text>
+<text x="114" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">SEC-000184</text>
+<text x="270" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">2,500,000</text>
+<text x="370" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">2,450,000</text>
+<text x="454" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">50,000</text>
+<text x="474" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">Quantity mismatch</text>
+<text x="634" y="279.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">4</text>
+<line x1="24" y1="290" x2="644" y2="290" stroke="#d4d4d4" stroke-width="1"/>
+<text x="34" y="309.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">ACC-0031</text>
+<text x="114" y="309.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">SEC-007702</text>
+<text x="270" y="309.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">4,000,000</text>
+<text x="454" y="309.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">4,000,000</text>
+<text x="474" y="309.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">Missing at custodian</text>
+<text x="634" y="309.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">1</text>
+<line x1="24" y1="320" x2="644" y2="320" stroke="#d4d4d4" stroke-width="1"/>
+<text x="34" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">ACC-0044</text>
+<text x="114" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">SEC-004410</text>
+<text x="270" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">3,900</text>
+<text x="370" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">4,100</text>
+<text x="454" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">-200</text>
+<text x="474" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">Quantity mismatch</text>
+<text x="634" y="339.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">2</text>
+<line x1="24" y1="350" x2="644" y2="350" stroke="#d4d4d4" stroke-width="1"/>
+<text x="34" y="369.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">ACC-0058</text>
+<text x="114" y="369.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">SEC-001377</text>
+<text x="370" y="369.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">125,000</text>
+<text x="454" y="369.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">-125,000</text>
+<text x="474" y="369.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">Missing in ABOR</text>
+<text x="634" y="369.0" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="end">7</text>
+<line x1="24" y1="380" x2="644" y2="380" stroke="#d4d4d4" stroke-width="1"/>
+<rect x="34" y="391.0" width="40" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="114" y="391.0" width="55" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="205" y="391.0" width="65" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="320" y="391.0" width="50" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="402" y="391.0" width="52" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="474" y="391.0" width="101" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="612" y="391.0" width="22" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<line x1="24" y1="410" x2="644" y2="410" stroke="#d4d4d4" stroke-width="1"/>
+<rect x="34" y="421.0" width="50" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="114" y="421.0" width="65" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="226" y="421.0" width="44" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="308" y="421.0" width="62" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="392" y="421.0" width="62" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="474" y="421.0" width="68" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="610" y="421.0" width="24" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<line x1="24" y1="440" x2="644" y2="440" stroke="#d4d4d4" stroke-width="1"/>
+<rect x="34" y="451.0" width="59" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="114" y="451.0" width="44" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="215" y="451.0" width="55" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="296" y="451.0" width="74" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="412" y="451.0" width="42" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="474" y="451.0" width="84" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="610" y="451.0" width="24" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<line x1="24" y1="470" x2="644" y2="470" stroke="#d4d4d4" stroke-width="1"/>
+<rect x="34" y="481.0" width="40" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="114" y="481.0" width="55" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="205" y="481.0" width="65" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="320" y="481.0" width="50" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="402" y="481.0" width="52" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="474" y="481.0" width="101" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="612" y="481.0" width="22" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<line x1="24" y1="500" x2="644" y2="500" stroke="#d4d4d4" stroke-width="1"/>
+<rect x="34" y="511.0" width="50" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="114" y="511.0" width="65" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="226" y="511.0" width="44" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="308" y="511.0" width="62" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="392" y="511.0" width="62" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="474" y="511.0" width="68" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="610" y="511.0" width="24" height="8" rx="3" fill="#e3e3e3" stroke="none" stroke-width="1"/>
+<rect x="660" y="232" width="276" height="298" rx="4" fill="#f4f4f4" stroke="#9a9a9a" stroke-width="1"/>
+<text x="676" y="258" font-size="13" font-weight="700" fill="#2b2b2b" text-anchor="start">Break detail</text>
+<text x="676" y="282" font-size="12" font-weight="700" fill="#2b2b2b" text-anchor="start">ACC-0012 / SEC-000184</text>
+<text x="676" y="299" font-size="11" font-weight="400" fill="#6b6b6b" text-anchor="start">Corp bond A 4.25% 2031</text>
+<rect x="676" y="312" width="118" height="56" rx="4" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<text x="686" y="330" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">ABOR</text>
+<text x="686" y="354" font-size="15" font-weight="700" fill="#2b2b2b" text-anchor="start">2,500,000</text>
+<rect x="802" y="312" width="118" height="56" rx="4" fill="#ffffff" stroke="#9a9a9a" stroke-width="1"/>
+<text x="812" y="330" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Custodian</text>
+<text x="812" y="354" font-size="15" font-weight="700" fill="#2b2b2b" text-anchor="start">2,450,000</text>
+<text x="676" y="392" font-size="12" font-weight="700" fill="#2b2b2b" text-anchor="start">Difference 50,000</text>
+<text x="676" y="410" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">Type: quantity mismatch</text>
+<text x="676" y="427" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">First seen 2026-11-05, age 4 days</text>
+<line x1="676" y1="442" x2="920" y2="442" stroke="#d4d4d4" stroke-width="1"/>
+<text x="690" y="462" font-size="10" font-weight="700" fill="#6b6b6b" text-anchor="start">Lineage</text>
+<text x="676" y="482" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">ABOR load 20261109-01</text>
+<text x="676" y="499" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">Custodian load 20261109-01</text>
+<text x="676" y="516" font-size="11" font-weight="400" fill="#2b2b2b" text-anchor="start">File cust_a_positions_20261109.csv</text>
+<text x="24" y="562" font-size="11" font-weight="400" fill="#6b6b6b" text-anchor="start">Rows 1 to 23 of 23</text>
+<text x="24" y="590" font-size="10" font-weight="400" fill="#6b6b6b" text-anchor="start">Wireframe (lo-fi): Break report. Callout numbers match the Elements table in AWS_Batch_Pipeline_Blueprint.</text>
+<circle cx="174" cy="110" r="11" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+<text x="174" y="114" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<circle cx="390" cy="110" r="11" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+<text x="390" y="114" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<circle cx="24" cy="156" r="11" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+<text x="24" y="160" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<circle cx="24" cy="232" r="11" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+<text x="24" y="236" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+<circle cx="660" cy="232" r="11" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+<text x="660" y="236" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+<circle cx="676" cy="458" r="11" fill="#c2410c" stroke="#ffffff" stroke-width="2"/>
+<text x="676" y="462" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+</svg>
